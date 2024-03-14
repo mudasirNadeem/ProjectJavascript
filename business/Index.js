@@ -95,6 +95,10 @@ function editProductDetail() {
      selectedProduct.salePrice = editSalePriceElement;
      
      localStorage.setItem("products", JSON.stringify(products));
+
+    editnameElement = document.getElementById("editproductnameElement").value = "";
+    editCostPriceElement = document.getElementById("editCostPriceElement").value = "";
+    editSalePriceElement = document.getElementById("editSalePriceElement").value = "";
 }
 
 var productNameElement = undefined;
